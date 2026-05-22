@@ -1,0 +1,42 @@
+{
+    "device": {
+        "host": "172.31.27.6",
+        "user": "root",
+        "pw": "root"
+    },
+    "paths": {
+        "bin_path": "/mnt/bin",
+        "lib_paths": "/mnt/lib64:/mnt/usr/lib64:/lib:/usr/lib",
+        "remote_ota_dir": "/ota",
+        "local_image_dir": "./images"
+    },
+    "expected_versions": {
+        "mcu": "R510_RS02_01",
+        "ufs": "R510_RS02_00",
+        "switch": "R400_RC02_2T"
+    },
+    "firmware_files": {
+        "full": {
+            "mcu": "MCU_GTMC_AY5_T1_Merge_Boot_App.hex",
+            "sail": "sail_ota.bin",
+            "switch": "bcm89572_evk_avb_switch_rev1.img",
+            "ufs": "ufs_ota.bin"
+        },
+        "mcu": {
+            "mcu": "MCU_GTMC_AY5_T1_Merge_Boot_App.hex"
+        },
+        "switch": {
+            "switch": "bcm89572_evk_avb_switch_rev1.img"
+        },
+        "soc": {
+            "sail": "sail_ota.bin",
+            "ufs": "ufs_ota.bin"
+        }
+    },
+    "zip_extracted_files": {
+        "mcu": "MCU_GTMC_AY5_T1_Merge_Boot_App.hex",
+        "sail": "sail_ota.bin",
+        "switch": "bcm89572_evk_avb_switch_rev1.img",
+        "ufs": "ufs_ota.bin"
+    }
+}
