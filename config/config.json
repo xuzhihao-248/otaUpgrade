@@ -1,8 +1,8 @@
 {
     "device": {
-        "host": "172.31.27.6",
+        "host": "139.196.59.150",
         "user": "root",
-        "pw": "root"
+        "pw": ""
     },
     "paths": {
         "bin_path": "/mnt/bin",
