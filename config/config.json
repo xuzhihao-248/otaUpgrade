@@ -1,19 +1,19 @@
 {
     "device": {
-        "host": "139.196.59.150",
-        "user": "root",
+        "host": "",
+        "user": "",
         "pw": ""
     },
     "paths": {
-        "bin_path": "/mnt/bin",
-        "lib_paths": "/mnt/lib64:/mnt/usr/lib64:/lib:/usr/lib",
-        "remote_ota_dir": "/ota",
-        "local_image_dir": "./images"
+        "bin_path": "",
+        "lib_paths": "",
+        "remote_ota_dir": "",
+        "local_image_dir": ""
     },
     "expected_versions": {
-        "mcu": "R510_RS02_01",
-        "ufs": "R510_RS02_00",
-        "switch": "R400_RC02_2T"
+        "mcu": "",
+        "ufs": "",
+        "switch": ""
     },
     "firmware_files": {
         "full": {
